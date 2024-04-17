@@ -4,9 +4,18 @@
 
 #### By *Maxwel Omwoyo*
 
+How to run:
+
+```
+npm i
+```
+```
+npm run dev
+```
+
 ## Description
 This is a simple property system that involes adding of car rental properties
-according to their number of units and and The system can be able to add car properties, edit the properties, Delete and View all the properties and also update the properties
+according to their Type, year of purchase, Total km the car has gone, and the car price.
 
 ## Installation
 You use git clone this repository
