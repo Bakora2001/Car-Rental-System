@@ -1,4 +1,4 @@
-<!-- # RENTAL-PROPERTY-SYSTEM
+# RENTAL-PROPERTY-SYSTEM
 
 #### 2024/04/12
 
@@ -45,4 +45,4 @@ Github
 Javascript
 
 ## Support and contact details
-github.com/Bakora2001 -->
+github.com/Bakora2001
