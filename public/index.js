@@ -65,7 +65,7 @@ const displayDataFunction = (myData, currentPage) => {
 			handleDeleteFunction(element.id);
 		});
 		const heartIcon = document.createElement('span');
-		heartIcon.innerHTML = '	&#x2764;'; // Unicode character code for heart emoji
+		heartIcon.innerHTML = '	&#x2764;'; // THis is a Unicode character code for heart emoji
 		heartIcon.style.color = 'blue';
 		heartIcon.style.fontSize = '24px';
 		heartIcon.style.cursor = 'pointer';
@@ -91,7 +91,7 @@ const displayDataFunction = (myData, currentPage) => {
 		container.append(cards);
 	});
 
-	//pagination code starts here
+	//I started my pagination code starts here
 	const pageCount = Math.ceil(myData.length / cardsPerPage);
 	const pageLinksHtml = Array.from(
 		{ length: pageCount },
@@ -104,7 +104,7 @@ const displayDataFunction = (myData, currentPage) => {
 
 	pagination.innerHTML = pageLinksHtml;
 
-	// Set up event listeners for the pagination links
+	// Seting up the event listeners for the pagination links
 	const pageLinks = pagination.querySelectorAll('.page-link');
 	pageLinks.forEach((link) => {
 		link.addEventListener('click', () => {
@@ -112,8 +112,6 @@ const displayDataFunction = (myData, currentPage) => {
 			displayDataFunction(myData, pageNumber);
 		});
 	});
-
-	//pagination ended here
 };
 //Implementing Sort By Price Functinality Here
 
