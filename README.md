@@ -5,7 +5,7 @@
 #### By *Maxwel Omwoyo*
 
 # Live Link
-[https://car-rental-system-3.onrender.com](render.com link)
+[https://car-rental-system-3.onrender.com](renderlink)
 
 How to run:
 
