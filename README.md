@@ -4,6 +4,9 @@
 
 #### By *Maxwel Omwoyo*
 
+# Live Link
+[https://car-rental-system-3.onrender.com](render.com link)
+
 How to run:
 
 ```
@@ -12,6 +15,7 @@ npm i
 ```
 npm run dev
 ```
+
 
 ## Description
 This is a simple property system that involes adding of car rental properties
